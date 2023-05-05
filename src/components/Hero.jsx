@@ -2,7 +2,8 @@ import React from "react";
 import profile from "../assets/profile.jpg";
 import "../index.css";
 import { TypeAnimation } from "react-type-animation";
-import { FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaLinkedin, FaLongArrowAltDown } from "react-icons/fa";
+import { FaLongArrowAltDown } from "react-icons/fa";
+import SocialMedia from "../common/SocialMedia";
 
 const Hero = () => {
   const typeAnimation = (
@@ -102,72 +103,17 @@ const Hero = () => {
               </p>
 
               {/* middle section */}
-              <div className="herosection-socialicons mt-7 text-center">
-                <ul className="mb-0 inline-flex list-none flex-wrap gap-3 pl-0 sm:gap-4">
-                  <li className="inline-block align-middle">
-                    <a
-                      href="facebook.com"
-                      target="_blank"
-                      className="group relative inline-block h-20 w-20 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body rounded"
-                    >
-                      <span className="front relative left-0 top-0 flex h-full w-full translate-y-0 transform items-center justify-center rounded bg-grey transition-all duration-500 group-hover:-translate-y-full">
-                        <FaFacebookSquare />
-                      </span>
-                      <span className="back absolute left-0 top-0 flex h-full w-full translate-y-full items-center justify-center rounded bg-primary text-grey transition-all duration-500 group-hover:translate-y-0">
-                        <FaFacebookSquare />
-                      </span>
-                    </a>
-                  </li>
-                  <li className="inline-block align-middle">
-                    <a
-                      href="facebook.com"
-                      target="_blank"
-                      className="group relative inline-block h-20 w-20 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body rounded"
-                    >
-                      <span className="front relative left-0 top-0 flex h-full w-full translate-y-0 transform items-center justify-center rounded bg-grey transition-all duration-500 group-hover:-translate-y-full">
-                        <FaGithubSquare />
-                      </span>
-                      <span className="back absolute left-0 top-0 flex h-full w-full translate-y-full items-center justify-center rounded bg-primary text-grey transition-all duration-500 group-hover:translate-y-0">
-                        <FaGithubSquare />
-                      </span>
-                    </a>
-                  </li>
-                  <li className="inline-block align-middle">
-                    <a
-                      href="facebook.com"
-                      target="_blank"
-                      className="group relative inline-block h-20 w-20 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body rounded"
-                    >
-                      <span className="front relative left-0 top-0 flex h-full w-full translate-y-0 transform items-center justify-center rounded bg-grey transition-all duration-500 group-hover:-translate-y-full">
-                        <FaInstagramSquare />
-                      </span>
-                      <span className="back absolute left-0 top-0 flex h-full w-full translate-y-full items-center justify-center rounded bg-primary text-grey transition-all duration-500 group-hover:translate-y-0">
-                        <FaInstagramSquare />
-                      </span>
-                    </a>
-                  </li>
-                  <li className="inline-block align-middle">
-                    <a
-                      href="facebook.com"
-                      target="_blank"
-                      className="group relative inline-block h-20 w-20 overflow-hidden border border-white border-opacity-10 text-center align-middle text-lg leading-none text-body rounded"
-                    >
-                      <span className="front relative left-0 top-0 flex h-full w-full translate-y-0 transform items-center justify-center rounded bg-grey transition-all duration-500 group-hover:-translate-y-full">
-                        <FaLinkedin />
-                      </span>
-                      <span className="back absolute left-0 top-0 flex h-full w-full translate-y-full items-center justify-center rounded bg-primary text-grey transition-all duration-500 group-hover:translate-y-0">
-                        <FaLinkedin />
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <SocialMedia />
+
               {/* bottom section */}
               <div className="herosection-bottom absolute left-0 top-auto bottom-10 w-full justify-between text-center">
-                  <a href="#about" className="cursor-pointer text-s font-medium uppercase tracking-widest transition-all hover:text-primary flex items-center justify-center">
-                    <FaLongArrowAltDown className="mr-3 bounce2" size={15}/>
-                    <span>Scroll down</span>
-                  </a>
+                <a
+                  href="#about"
+                  className="cursor-pointer text-s font-medium uppercase tracking-widest transition-all hover:text-primary flex items-center justify-center"
+                >
+                  <FaLongArrowAltDown className="mr-3 bounce2" size={15} />
+                  <span>Scroll down</span>
+                </a>
               </div>
             </div>
           </div>

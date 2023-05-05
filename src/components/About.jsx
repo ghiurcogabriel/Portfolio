@@ -1,17 +1,13 @@
 import React from 'react';
 import profileTwo from '../assets/profile2.jpg'
+import SectionTitle from '../common/SectionTitle';
+import Resume from '../assets/Resume.pdf';
 
 const About = () => {
   return (
     <div id='about' className='about-section pt-24 lg:pt-28 xl:pt-32'>
       <div className='container mx-auto'>
-        <div className='section-heading relative overflow-hidden pb-14 text-center'>
-          <h2 className='relative z-10 mb-2 uppercase'>About Me</h2>
-          <span className='relative z-10 inline-block h-1.5 w-32 overflow-hidden rounded-full bg-primary bg-opacity-20'>
-            <span className='absolute left-0 top-0 inline-block h-full w-1.5 animate-lefttoright rounded-full bg-primary'></span>
-          </span>
-          <span className='pointer-events-none absolute left-1/2 -top-2 z-0 -translate-x-1/2 transform text-9xl font-bold uppercase text-heading opacity-5'>About</span>
-        </div>
+        <SectionTitle topText='About Me' behindText='About'/>
         <div className='grid grid-cols-2 items-center gap-7'>
           <div className='col-span-2 lg:col-span-1'>
             <div className='about-image overflow-hidden rounded-lg'>
@@ -39,7 +35,7 @@ const About = () => {
                 <li className='text-lg mt-8'><strong className='inline-block min-w-[120px] font-medium'>Country</strong> : Romania</li>
                 <li className='text-lg mt-8'><strong className='inline-block min-w-[120px] font-medium'>City</strong> : Cluj-Napoca</li>
               </ul>
-              <a href="/resume.pdf" className='btn mt-3'>
+              <a href={Resume} download='Gabriel-Ghiurco-Resume' className='btn mt-3'>
                 <span>Download Resume</span>
               </a>
             </div>
