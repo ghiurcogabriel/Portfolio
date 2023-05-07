@@ -7,7 +7,6 @@ AOS.init();
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
-  console.log(showNav);
 
   return (
     <header
