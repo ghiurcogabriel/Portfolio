@@ -1,5 +1,5 @@
 import React from "react";
-import westFinder from "../assets/projects/westfinder.jpg";
+import westFinder from "../assets/projects/westfinder.png";
 import travel from "../assets/projects/travel.png";
 import game from "../assets/projects/game.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
@@ -99,7 +99,10 @@ const Works = () => {
               </div>
               <div className="portfolio-content mt-4">
                 <h4>Travel App</h4>
-                <p>A website where you can search for reastaurants, hotels and attractions.</p>
+                <p>
+                  A website where you can search for reastaurants, hotels and
+                  attractions. Created with ReactJs using Google Maps api for locations.
+                </p>
               </div>
             </div>
           </div>
@@ -181,7 +184,9 @@ const Works = () => {
               </div>
               <div className="portfolio-content mt-4">
                 <h4>Memory game and Recipe App</h4>
-                <p>A momory game app and recipe app, both in the same website.</p>
+                <p>
+                  A momory game app and recipe app, both in the same website. Crated with ReactJs and hosted in Goodgle Firebase.
+                </p>
               </div>
             </div>
           </div>
@@ -243,11 +248,18 @@ const Works = () => {
                   </span>
                 </div>
                 <div className="portfolio-hovercontent absolute left-0 top-0 z-20 flex h-full w-full -translate-x-full transform items-center justify-center gap-4 overflow-hidden bg-grey bg-opacity-80 transition-all duration-500 group-hover:translate-x-0">
-                  <button className="inline-flex h-20 min-h-0 w-20 items-center justify-center rounded-full bg-primary p-0 text-center text-lg text-grey">
-                    <FaGithub size={50} />
-                  </button>
                   <a
-                    href="/"
+                    href="https://github.com/ghiurcogabriel/WestFinder"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex h-20 min-h-0 w-20 items-center justify-center rounded-full bg-primary p-0 text-center text-lg text-grey"
+                  >
+                    <FaGithub size={50} />
+                  </a>
+                  <a
+                    href="https://westfinder.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex h-20 min-h-0 w-20 items-center justify-center rounded-full bg-primary p-0 text-center text-lg text-grey"
                   >
                     <FaExternalLinkAlt />
@@ -256,7 +268,7 @@ const Works = () => {
               </div>
               <div className="portfolio-content mt-4">
                 <h4>WestFinder</h4>
-                <p>This project will be displayed in the next few days.</p>
+                <p>E-Commerce website, with categories for mens and womens, hosted in Google Firebase and build with ReactJs.</p>
               </div>
             </div>
           </div>
