@@ -1,5 +1,4 @@
 import React from "react";
-// import Circle from "react-circle";
 import SectionTitle from "../common/SectionTitle";
 
 const Tech = () => {

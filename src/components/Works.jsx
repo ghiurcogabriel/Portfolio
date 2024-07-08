@@ -101,7 +101,8 @@ const Works = () => {
                 <h4>Travel App</h4>
                 <p>
                   A website where you can search for reastaurants, hotels and
-                  attractions. Created with ReactJs using Google Maps api for locations.
+                  attractions. Created with ReactJs using Google Maps api for
+                  locations.
                 </p>
               </div>
             </div>
@@ -185,7 +186,8 @@ const Works = () => {
               <div className="portfolio-content mt-4">
                 <h4>Memory game and Recipe App</h4>
                 <p>
-                  A momory game app and recipe app, both in the same website. Crated with ReactJs and hosted in Goodgle Firebase.
+                  A momory game app and recipe app, both in the same website.
+                  Crated with ReactJs and hosted in Goodgle Firebase.
                 </p>
               </div>
             </div>
@@ -268,7 +270,10 @@ const Works = () => {
               </div>
               <div className="portfolio-content mt-4">
                 <h4>WestFinder</h4>
-                <p>E-Commerce website, with categories for mens and womens, hosted in Google Firebase and build with ReactJs.</p>
+                <p>
+                  E-Commerce website, with categories for mens and womens,
+                  hosted in Google Firebase and build with ReactJs.
+                </p>
               </div>
             </div>
           </div>

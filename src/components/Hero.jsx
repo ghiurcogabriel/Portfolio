@@ -9,8 +9,6 @@ const Hero = () => {
   const typeAnimation = (
     <TypeAnimation
       sequence={[
-        // Same String at the start will only be typed once, initially
-        // 'We produce food for Mice',
         1000,
         "Gabriel Ghiurco",
         1000,
@@ -97,15 +95,15 @@ const Hero = () => {
                 className="lead mb-0"
                 style={{ opacity: 1, transform: "none" }}
               >
-                I am a full-stack web developer. I am an open-minded person,
-                friendly and excited about learning something new. I am a
-                self-taught developer with more than one year of self-learning.
+                Motivated and versatile Full Stack Developer with more than 1 year of
+                hands-on experience in building and maintaining web
+                applications. Proficient in both front-end and back-end
+                technologies including TypeScript, NextJs, Node.js, and
+                MySql/PostgresSql. Eager to leverage my skills in coding,
+                problem-solving, and continuous learning to contribute to
+                innovative projects.
               </p>
-
-              {/* middle section */}
               <SocialMedia />
-
-              {/* bottom section */}
               <div className="herosection-bottom absolute left-0 top-auto bottom-10 w-full justify-between text-center">
                 <a
                   href="#about"

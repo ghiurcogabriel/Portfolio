@@ -53,16 +53,18 @@ const Contact = () => {
             setEmailFailed(error.text);
           }
         );
-        
-        setName("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
-      }
-      const time = setTimeout(() => {
-        setConfirmMessage("The Email has been sent successfully");
-      }, 3000);
-      return () => {clearTimeout(time)}
+
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+    }
+    const time = setTimeout(() => {
+      setConfirmMessage("The Email has been sent successfully");
+    }, 3000);
+    return () => {
+      clearTimeout(time);
+    };
   };
 
   return (
